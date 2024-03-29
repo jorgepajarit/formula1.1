@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="styles/estyles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styleIndex.css">
     <title>Formula 1 Colombia</title>
     <link rel="icon" href="assets/logos.png" type="image/x-icon">
   </head>
@@ -16,7 +16,7 @@
         <nav>
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
+                <li><a href="products.html">Productos</a></li>
                 <li><a href="circuitos.html">Circuitos</a></li>
                 <li><a href="#">Escuderias</a></li>
             </ul>
@@ -28,7 +28,7 @@
     
 <section>
       <div class="container">
-        <img src="assets/f2.jpg" class="animacion" loading="lazy">
+        <img src="assets/f2.jpg" class="animacion" loading="">
         <img src="assets/p3.jpg" class="animacion" loading="lazy">
         <img src="assets/p4.jpg" class="animacion" loading="lazy">
         <img src="assets/p5.jpg" class="animacion" loading="lazy">
@@ -43,16 +43,16 @@
             <br>
             <ul id="equipos">
               <div class="equipos-lista">
-              <li><img src="assets/mercedeslogo.jpg" alt="Mercedes logo" width="50px">Mercedes-AMG PETRONAS F1 Team</li>
+              <li><img src="assets/mercedeslogo.jpg"alt="Mercedes logo" width="50px"><a class="mercedes" href="https://www.mercedesamgf1.com" target="_blank">Mercedes-AMG PETRONAS F1 Team</a></li>
               <li><img src="assets/logo reddbull.jpg" alt="Red Bull Racing logo" width="50px">Red Bull Racing</li>
-              <li><img src="assets/logomclaren.jpg" alt="McLaren logo" width="50px">	McLaren Formula 1 Team</li>
-              <li><img src="assets/logoferrari.gif" alt="Ferrari logo" width="50px">	Scuderia Ferrari</li>
+              <li><img src="assets/logomclaren.jpg" alt="McLaren logo" width="50px">McLaren Formula 1 Team</li>
+              <li><img src="assets/logoferrari.gif" alt="Ferrari logo" width="50px">Scuderia Ferrari</li>
               <li><img src="assets/logoaston.jpg" alt="Aston Martin logo" width="50px">Aston Martin Aramco F1 Team</li>
               <li><img src="assets/logoalpine.jpg" alt="Alpine logo" width="50px">BWT Alpine F1 Team</li>
               <li><img src="assets/logoalpha.jpg" alt="AlphaTauri logo" width="50px">	Visa Cash App RB Formula One Team</li>
               <li><img src="assets/logowilliams.jpg" alt="Williams logo" width="50px">Williams Racing</li>
               <li><img src="assets/logohaas.jpg" alt="Haas F1 Team logo" width="50px">MoneyGram Haas F1 Team</li>
-              <li><img src="assets/logoalfaromeo.jpg" alt="Alfa Romeo Racing logo" width="50px">	Stake F1 Team Kick Sauber</li>
+              <li><img src="assets/stakef1.jpg" alt="Alfa Romeo Racing logo" width="50px">	Stake F1 Team Kick Sauber</li>
             </ul>
           </div>
         </div>
@@ -75,7 +75,7 @@
                  aunque no se trata de una novedad, ni mucho menos, puesto que muchos equipos lo utilizaron en el pasado.</p>
 
           </article>
-          <div class="noticias-pequenas">
+         <div class="noticias-pequenas">
               <article class="noticia-pequena">
                   <img src="assets/notipeq1.png" alt="Imagen de la primera noticia">
                   <h3>
@@ -118,9 +118,11 @@
           </article>
       </div>
       <article class="noticia-principal1">
-          <img src="imagen_principal.jpg" alt="Imagen de la noticia principal">
-          <h2>Noticia Principal</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum, lacus id tincidunt suscipit.</p>
+        <div class="videonotiprin1">
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/_omlQl8EaFo" title="STAKE F1 TEAM | C44 LAUNCH | UNLEASHED for the 2024 Season 💚🖤" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+          <h2>EQUIPO DE F1 EN JUEGO | LANZAMIENTO C44 | UNLEASHED para la temporada 2024 💚🖤</h2>
+          <p>Nueva era, nueva energía, nueva imagen..</p>
       </article>
   </section>
         <hr class="elegant-line">
@@ -133,14 +135,15 @@
       <section>
         <div class="section-formu">
       <h1>Formulario de contacto</h1>
-	  <form action="guardar.php" method="post">
-		<label for="nombre">Nombre:</label>
+    
+	  <form action="ç#" method="post">
+		<label for="nombre"> </label>
 		<input type="text" placeholder="Nombre Completo" id="nombre" name="nombre"><br>
 
-		<label for="correo">Correo electrónico:</label>
-		<input type="email" id="correo" name="correo"><br>
+		<label for="correo"></label>
+		<input type="email" placeholder="@Correo electrónico,com" id="correo" name="correo"><br>
 
-		<label for="mensaje">Mensaje:</label>
+		<label for="mensaje"></label>
 		<textarea id="mensaje" placeholder="Escribenos Tus Comentarios" name="mensaje"></textarea><br>
 
 		<button type="submit" class="boton-enviar">Enviar</button>
